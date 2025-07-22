@@ -7,5 +7,5 @@ def subtract(x: int, y: int) -> int:
 def multiply(x: int, y: int) -> int:
     return x * y
 
-def division(x: int, y: int) -> int:
+def divide(x: int, y: int) -> int:
     return x / y

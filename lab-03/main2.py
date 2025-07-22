@@ -7,7 +7,7 @@ print("Using calculator.py:")
 print("Addition:", add_def(10, 5))
 print("Subtraction:", subtract_def(10, 5))
 print("Multiplication:", multiply_def(10, 5))
-print("Division:", divide_def(10, 5))
+print("Divide:", divide_def(10, 5))
 
 # Sample strings and printing results using string_operations.py
 sample_string = "hello World"

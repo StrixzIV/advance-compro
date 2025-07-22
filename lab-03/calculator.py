@@ -7,10 +7,10 @@ def subtract(x: int, y: int) -> int:
 def multiply(x: int, y: int) -> int:
     return x * y
 
-def division(x: int, y: int) -> int:
+def divide(x: int, y: int) -> int:
     return x / y
 
 print(f'Addition: {add(5, 10)}')
 print(f'Subtraction: {subtract(5, 10)}')
 print(f'Multiplication: {multiply(5, 10)}')
-print(f'Division: {division(5, 10)}')
+print(f'divide: {divide(5, 10)}')
