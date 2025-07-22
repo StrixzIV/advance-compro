@@ -7,6 +7,6 @@ children = [
 ]
 
 criteria = lambda data: data['age'] > 3 and data['height'] > 100
-eligible_children = list(filter(criteria, children))
+eligible_children = [e for e in children if criteria(e)]
 
 print(f'Eligible children for the fun park: {eligible_children}')
