@@ -5,6 +5,8 @@ children = [
     {"name": "David", "age": 5, "height": 102},
     {"name": "Eve", "age": 6, "height": 99}
 ]
-eligible_children = [e for e in children if e['age'] > 3 and e['height'] > 100]
+
+criteria = lambda data: data['age'] > 3 and data['height'] > 100
+eligible_children = list(filter(criteria, children))
 
 print(f'Eligible children for the fun park: {eligible_children}')
